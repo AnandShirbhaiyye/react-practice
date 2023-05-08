@@ -1,5 +1,6 @@
 import Chocolate from './Chocolate';
 import './App.css';
+import State from './components/State/State';
 
 function App() {
   return (
@@ -10,8 +11,9 @@ function App() {
       <Chocolate title="Kharbuj" description="Khabuj is fruit"/>
       <Chocolate title="Dairy Milk" description="dairy milk is sweet"/>
       <Chocolate title="Perk" description="perk is chocolate"/>
-      
+      <Chocolate title="Anand" description="Anand is a boy"/>
     </div>
+    <State/>
     </>
   );
 }

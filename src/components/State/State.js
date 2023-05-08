@@ -8,7 +8,7 @@ export default function State() {
     <>
     <div className='usestate-container'>
       <h1>Count: {count}</h1>
-      <button onClick={() => setCount(count + 1)}>Increment</button>
+      <button className='btn btn-warning' onClick={() => setCount(count + 1)}>Increment</button>
     </div>
     </>
   )

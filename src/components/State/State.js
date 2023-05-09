@@ -6,9 +6,12 @@ export default function State() {
     const [count, setCount] = useState(0);
   return (
     <>
-    <div className='usestate-container'>
+    <div className='usestate-container text-center'>
+      <div className='text-center'>
       <h1>Count: {count}</h1>
-      <button className='btn btn-warning' onClick={() => setCount(count + 1)}>Increment</button>
+      </div>
+      <button className='btn btn-warning me-5' onClick={() => setCount(count + 1)}>Increment</button>
+      <button className='btn btn-danger' onClick={() => setCount(count - 1)}>Decrement</button>
     </div>
     </>
   )

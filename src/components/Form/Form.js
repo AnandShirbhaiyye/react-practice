@@ -4,19 +4,13 @@ export default function Form() {
   return (
     <>
     <form>
-      <label>
-        FullName:
-        <input type="text"/>
-      </label>
-      <label>
-        Email:
-        <input type="email"/>
-      </label>
-      <label>
-        Mobile-Number:
-        <input type="phone"/>
-      </label>
-      <button type="submit">Submit</button>
+        <input type="text" placeholder='enter your fullname' className='mt-2'/><br/>
+
+        <input type="email" placeholder='enter your email' className='mt-2'/><br/>
+  
+        <input type="phone" placeholder='enter your phone number' className='mt-2' /><br/>
+
+      <button type="submit" className='mt-2'>Submit</button>
     </form>
     </>
   )

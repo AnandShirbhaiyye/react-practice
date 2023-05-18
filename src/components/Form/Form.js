@@ -30,7 +30,7 @@ export default function Form() {
             />
             <br />
 
-            <button type="submit" className="mt-2">
+            <button type="submit" className="mt-3">
               Submit
             </button>
           </form>

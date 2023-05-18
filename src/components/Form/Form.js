@@ -7,6 +7,7 @@ export default function Form() {
       <div className="container">
         <div className="row">
         <div className="form-container text-center">
+          <h2 className="text-center">Registation form</h2>
           <form>
             <input
               type="text"

@@ -6,36 +6,39 @@ export default function Form() {
     <>
       <div className="container">
         <div className="row">
-        <div className="form-container text-center">
-          <h2 className="text-center">Registation form</h2>
-          <form>
-            <input
-              type="text"
-              placeholder="enter your fullname"
-              className="mt-2"
-            />
-            <br />
+          <div className="form-container text-center">
+            <h2 className="text-center">Registation form</h2>
+            <form>
+              <input
+                type="text"
+                class="form-control mt-2"
+                id="exampleFormControlInput1"
+                placeholder="enter your fullname"
+              ></input>
+              <br />
+              
+               <input
+                type="email"
+                class="form-control mt-2"
+                id="exampleFormControlInput1"
+                placeholder="enter your email"
+              ></input>
+              <br />
 
-            <input
-              type="email"
-              placeholder="enter your email"
-              className="mt-2"
-            />
-            <br />
+              <input
+                type="phone"
+                class="form-control mt-2"
+                id="exampleFormControlInput1"
+                placeholder="enter your phone"
+              ></input>
+              <br />
 
-            <input
-              type="phone"
-              placeholder="enter your phone number"
-              className="mt-2"
-            />
-            <br />
-
-            <button type="submit" class="btn btn-warning mt-3">
-             Submit
+              <button type="submit" class="btn btn-warning mt-3">
+                Submit
               </button>
-          </form>
+            </form>
+          </div>
         </div>
-      </div>
       </div>
     </>
   );

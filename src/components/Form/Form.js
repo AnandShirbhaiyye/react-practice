@@ -11,7 +11,7 @@ export default function Form() {
             <form>
               <input
                 type="text"
-                class="form-control mt-2"
+                class="form-control mt-4"
                 id="exampleFormControlInput1"
                 placeholder="enter your fullname"
               ></input>
@@ -33,9 +33,9 @@ export default function Form() {
               ></input>
               <br />
 
-              <button type="submit" class="btn btn-warning mt-3">
-                Submit
-              </button>
+              <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-primary" type="button">Button</button>
+              </div>
             </form>
           </div>
         </div>

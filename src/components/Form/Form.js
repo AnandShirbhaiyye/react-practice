@@ -1,7 +1,13 @@
+import { useState } from 'react';
 import React from "react";
 import "./Form.css";
 
 export default function Form() {
+
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
+
   return (
     <>
       <div className="container">

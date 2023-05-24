@@ -9,7 +9,7 @@ export default function Form() {
   const [phone, setPhone] = useState('');
 
   const handleSubmit = (e) => {
-   
+    alert("successfully...")
   };
 
   return (
@@ -47,7 +47,7 @@ export default function Form() {
               <br />
 
               <div class="d-grid gap-2 col-6 mx-auto">
-              <button class="btn btn-primary" type="button">Button</button>
+              <button class="btn btn-primary" type="submit">Button</button>
               </div>
             </form>
           </div>

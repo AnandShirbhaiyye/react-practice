@@ -8,13 +8,17 @@ export default function Form() {
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
 
+  const handleSubmit = (e) => {
+   
+  };
+
   return (
     <>
       <div className="container">
         <div className="row">
           <div className="form-container text-center">
             <h2 className="text-center">Registation form</h2>
-            <form>
+            <form onSubmit={handleSubmit}>
               <input
                 type="text"
                 class="form-control mt-4"

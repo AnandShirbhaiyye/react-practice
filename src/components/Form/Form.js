@@ -9,7 +9,8 @@ export default function Form() {
   const [phone, setPhone] = useState('');
 
   const handleSubmit = (e) => {
-    alert("successfully...")
+     e.preventDefault();
+     console.log(`Name: ${name}, Email: ${email}, Phone:${phone}`);
   };
 
   return (

@@ -20,6 +20,7 @@ export default function Form() {
                 class="form-control mt-4"
                 id="exampleFormControlInput1"
                 placeholder="enter your fullname"
+                value={name} onChange={(e) => setName(e.target.value)}
               ></input>
               <br />
               
@@ -28,6 +29,7 @@ export default function Form() {
                 class="form-control mt-2"
                 id="exampleFormControlInput1"
                 placeholder="enter your email"
+                value={email} onChange={(e) => setEmail(e.target.value)}
               ></input>
               <br />
 
@@ -36,6 +38,7 @@ export default function Form() {
                 class="form-control mt-2"
                 id="exampleFormControlInput1"
                 placeholder="enter your phone"
+                value={phone} onChange={(e) => setPhone(e.target.value)}
               ></input>
               <br />
 

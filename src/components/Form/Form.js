@@ -48,7 +48,7 @@ export default function Form() {
               <br />
 
               <div class="d-grid gap-2 col-6 mx-auto">
-              <button class="btn btn-primary" type="submit">Button</button>
+              <button class="btn btn-warning" type="submit">Button</button>
               </div>
             </form>
           </div>

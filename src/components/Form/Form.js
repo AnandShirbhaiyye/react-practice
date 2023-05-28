@@ -7,6 +7,7 @@ export default function Form() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
+  const [password, setPassword] = useState('');
 
   const handleSubmit = (e) => {
      e.preventDefault();
@@ -45,6 +46,15 @@ export default function Form() {
                 id="exampleFormControlInput1"
                 placeholder="enter your phone"
                 value={phone} onChange={(e) => setPhone(e.target.value)}
+              ></input>
+              <br />
+
+              <input
+                type="password"
+                class="form-control mt-2"
+                id="exampleFormControlInput1"
+                placeholder="enter your password"
+                value={password} onChange={(e) => setPassword(e.target.value)}
               ></input>
               <br />
 

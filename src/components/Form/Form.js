@@ -11,7 +11,7 @@ export default function Form() {
 
   const handleSubmit = (e) => {
      e.preventDefault();
-     console.log(`Name: ${name}, Email: ${email}, Phone:${phone}`);
+     console.log(`Name: ${name}, Email: ${email}, Phone:${phone}, Password:${password}`);
      alert("Registration Successfully...")
   };
 
@@ -58,7 +58,7 @@ export default function Form() {
               ></input>
               <br />
 
-              <div class="d-grid gap-2 col-6 mx-auto">
+              <div class="d-grid gap-2 col-6 mx-auto mt-2">
               <button class="btn btn-primary" type="submit">Button</button>
               </div>
             </form>

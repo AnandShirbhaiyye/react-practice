@@ -1,14 +1,14 @@
-import React from 'react'
-import Student from './Student'
+import React from "react";
+import Student from "./Student";
 
 export default function Map() {
+  const students = ["Anand", "Kajal", "Kanchan", "Ujwal"];
   return (
     <>
-    <h1 className='text-center'>Map</h1>
-    <Student name="Suraj"/>
-    <Student name="Anand"/>
-    <Student name="Pinki"/>
-    <Student name="Vaishnavi"/>
+      <h1 className="text-center">Map</h1>
+      {students.map((stud) => {
+        return <Student name={stud} />;
+      })}
     </>
-  )
+  );
 }

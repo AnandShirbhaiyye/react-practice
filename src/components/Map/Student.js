@@ -1,11 +1,11 @@
 import React from 'react';
 import './Student.css';
 
-function Student() {
+function Student(props) {
   return (
     <>
     <div className='student-container'>
-        Student
+        Hello {props.name}
     </div>
     </>
   )

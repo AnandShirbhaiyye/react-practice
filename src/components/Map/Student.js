@@ -3,7 +3,11 @@ import './Student.css';
 
 function Student() {
   return (
-    <div>Student</div>
+    <>
+    <div className='student-container'>
+        Student
+    </div>
+    </>
   )
 }
 

@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Props from './components/Props/Props';
 import State from './components/State/State';
 import Map from "./components/Map/Map";
+import Animation from './components/Animation/Animation';
 
 import './App.css';
 import Form from "./components/Form/Form";
@@ -18,6 +19,7 @@ function App() {
         <Route path="/map" element={<Map />} />
         <Route path="/form" element={<Form />} />
         <Route path="/score" element={<Score />} />
+        <Route path="/animation" element={<Animation />} />
       </Routes>
     </BrowserRouter>
     </>

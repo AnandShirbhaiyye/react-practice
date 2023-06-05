@@ -2,10 +2,19 @@
     display: block;
     background-color: rgb(41, 46, 46);
     margin: 100px 0;
-
     padding: auto 0;
 }
-
+.animation-car{
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+}
+.car-img{
+    height: 120px;
+    margin: 50px 0;
+    animation: car-ani 4s linear infinite;
+}
 
 @keyframes car-ani {
     0% {
@@ -24,12 +33,4 @@
     100% {
         margin-left:1000px ;
     }
-}
-.car-container img {
-    height: 100px;
-    margin: 50px 0;
-  
-}
-.img{
-    animation: car-ani 4s linear infinite;
 }

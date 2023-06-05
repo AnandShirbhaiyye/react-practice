@@ -8,7 +8,7 @@ export default function Animation() {
 
       <div class="car-container">
         <img
-          class="img"
+          class="car-img"
           src="https://cdn.lowgif.com/full/8f5a48839e61c7c7-race-car-animated-free-download-best-race-car-animated.gif"
           alt=""
         />

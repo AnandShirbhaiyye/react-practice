@@ -13,7 +13,10 @@ export default function Animation() {
           alt=""
         />
       </div>
-      <button className="animation-button">Animation Button</button>
+      
+      <div className="text-center mb-5">
+        <button className="animation-button">Animation Button</button>
+      </div>
     </>
   );
 }

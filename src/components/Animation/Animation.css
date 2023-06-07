@@ -34,3 +34,10 @@
         margin-left:1000px ;
     }
 }
+
+.animation-button{
+    background-color: blueviolet;
+    color: #fff;
+    border: none;
+    padding: 10px;
+}

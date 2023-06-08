@@ -50,3 +50,12 @@
     border-radius: 5px;
     transition: 2s;
 }
+.animation-btn{
+    background-color: tomato;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    border:  1px solid black;
+}

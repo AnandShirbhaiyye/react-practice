@@ -58,4 +58,12 @@
     border-radius: 10px;
     font-size: 20px;
     border:  1px solid black;
+    margin-left: -120px
+}
+.animation-btn:hover{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    transition: 2s;
+    margin-left: 10px
 }

@@ -67,13 +67,41 @@
     transition: 2s;
     margin-left: 10px
 }
+
+@keyframes btn-animation {
+    0% {    
+        background-color: darkblue;
+    }
+
+    20% {
+        background-color: tomato;
+    }
+
+    40% {
+       background-color: lightpink;
+    }
+
+    60% {
+       background-color: blueviolet;
+    }
+
+    80% {
+        background-color: lime;
+     }
+
+    100% {
+        background-color: skyblue;
+     }
+}
+
 .animation-btn-keyframe{
     background-color: lightskyblue;
-    color: black;
+    color: white;
     border: none;
     padding: 10px;
     border-radius: 10px;
     font-size: 20px;
     border:  1px solid black;
+    animation: btn-animation 4s;
 }
 

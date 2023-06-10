@@ -15,8 +15,8 @@ export default function Animation() {
       </div>
       
       <div className="text-center mb-5">
-        <button className="animation-button">Animation Button</button>
-        <button className="animation-btn-keyfrane">Animation Button3</button>
+        <button className="animation-button">Animation Button</button> <br/>
+        <button className="animation-btn-keyframe mt-3">Animation Button3</button>
       </div>
 
       <button className="animation-btn">Animation Button2</button>

@@ -67,4 +67,14 @@
     transition: 2s;
     margin-left: 10px
 }
+.animation-btn-keyframe{
+    background-color: lightskyblue;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    border:  1px solid black;
+    margin-left: -120px;
+}
 

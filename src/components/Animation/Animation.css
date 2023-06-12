@@ -104,4 +104,9 @@
     border:  1px solid black;
     animation: btn-animation 4s;
 }
-
+.animation-box{
+    border: 5px double black;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+}

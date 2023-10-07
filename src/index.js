@@ -84,21 +84,44 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Home from './components/Home/Home';
+import Posts from './views/Posts/Posts';
+import ReadPost from './views/ReadPost/ReadPost';
+import ConfigurationUI from './components/ConfigurationUI/ConfigurationUI';
 
 // bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-// import Home from './components/Home/Home';
-import ConfigurationUI from './components/ConfigurationUI/ConfigurationUI';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/posts",
+    element: <Posts />,
+  },
+  {
+    path: "/post/read/:id",
+    element: <ReadPost />,
+  },
+  {
+    path: "/configurationui",
+    element: <ConfigurationUI/>,
+  },
+  {
+    path: "*",
+    element: <h1> 404 Not Found</h1>,
+  }
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-   {/* <Home/> */}
-   <ConfigurationUI/>
-  </React.StrictMode>
+  <RouterProvider router={router} />
 );
 reportWebVitals();
 
